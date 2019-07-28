@@ -1,0 +1,99 @@
+.logo a img {
+    border-top-right-radius: 145px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.uvodni-motivator{
+		height:auto !important;
+	}
+	
+	.slicknav_menu .slicknav_icon::before{
+		top:-30px !important;
+		width: 2.125em !important;
+		height: 1.875em !important;
+
+	}
+	.site-header .middle-header{
+		padding: 0px !important;
+	}
+	.menu-mobile{
+		display: flex; 
+		flex-flow: column; 
+		min-height: 0px !important;
+	}
+	.logo{
+			order: 2;	
+	}
+	.logo a img {
+    border-top-right-radius: 45px;
+
+	}
+	.mobile-nav{
+		order: 1;
+		padding-right: 15px;
+		padding-bottom: 15px;
+	}
+	.no-padding-left{
+		padding-left: 0px !important;
+	}
+	.no-padding-right{
+		padding-right: 0px !important;
+	}
+
+	
+	.slicknav_menu{
+/* 		padding-top: 0px;
+		margin-top: -50px; */
+	}
+	.slicknav_icon-bar{
+		width: 30px;
+	}
+	.motivator{
+		height:auto !important;	
+	}
+	.motivator img{
+		min-height: 180px;
+	}
+	.hero-inner{
+		display: none;
+		 opacity: 0.0;
+         pointer-events: none;
+	}
+}
+@media only screen and (min-width: 769px ) and (max-width: 1023px ) {
+	.hero-inner{
+		bottom: 30%;
+		right: 15%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.uvodni-motivator{
+		height: 650px !important;
+	}
+	.motivator{
+		height: 650px !important;
+	}
+	.hero-inner{
+		bottom: 95%;
+	}
+	
+}
+
+	 
+figure {
+    display: inline-block; /* Here !!! */
+    position: relative;
+    margin: 0;
+}
+
+figcaption{
+  position: absolute;
+  bottom: 30%;
+  left: 30%;
+  color: white;
+  padding: 4px;
+  font-size: 17px;
+  line-height: 18px;
+}
